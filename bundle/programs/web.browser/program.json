@@ -1,0 +1,74 @@
+{
+  "format": "web-program-pre1",
+  "manifest": [
+    {
+      "path": "3fdd0eac140aa2d4dbb14e16f369bddb63a7bbcb.js",
+      "where": "client",
+      "type": "js",
+      "cacheable": true,
+      "url": "/3fdd0eac140aa2d4dbb14e16f369bddb63a7bbcb.js",
+      "size": 793666,
+      "hash": "3fdd0eac140aa2d4dbb14e16f369bddb63a7bbcb"
+    },
+    {
+      "path": "a8760bc8cddc55c2ed9bf50580b47a5d28f6adb8.css",
+      "where": "client",
+      "type": "css",
+      "cacheable": true,
+      "url": "/a8760bc8cddc55c2ed9bf50580b47a5d28f6adb8.css?meteor_css_resource=true",
+      "size": 425640,
+      "hash": "a8760bc8cddc55c2ed9bf50580b47a5d28f6adb8"
+    },
+    {
+      "path": "packages/nooitaf_semantic-ui/lib/semantic-ui/themes/default/assets/fonts/icons.eot",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nooitaf_semantic-ui/lib/semantic-ui/themes/default/assets/fonts/icons.eot",
+      "size": 72449,
+      "hash": "ad0c0513a2fbb7326ac5e11f7c94b95aa23b02e0"
+    },
+    {
+      "path": "packages/nooitaf_semantic-ui/lib/semantic-ui/themes/default/assets/fonts/icons.svg",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nooitaf_semantic-ui/lib/semantic-ui/themes/default/assets/fonts/icons.svg",
+      "size": 253486,
+      "hash": "819310115a5b5a24d95a57a75f61ff27335998c0"
+    },
+    {
+      "path": "packages/nooitaf_semantic-ui/lib/semantic-ui/themes/default/assets/fonts/icons.ttf",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nooitaf_semantic-ui/lib/semantic-ui/themes/default/assets/fonts/icons.ttf",
+      "size": 141564,
+      "hash": "c59792c0a05a4da1f9202a390a27e2d500c36752"
+    },
+    {
+      "path": "packages/nooitaf_semantic-ui/lib/semantic-ui/themes/default/assets/fonts/icons.woff",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nooitaf_semantic-ui/lib/semantic-ui/themes/default/assets/fonts/icons.woff",
+      "size": 83760,
+      "hash": "7f2f3c55c2de192387c351b995115f6b79e09173"
+    },
+    {
+      "path": "packages/nooitaf_semantic-ui/lib/semantic-ui/themes/default/assets/images/flags.png",
+      "where": "client",
+      "type": "asset",
+      "cacheable": false,
+      "url": "/packages/nooitaf_semantic-ui/lib/semantic-ui/themes/default/assets/images/flags.png",
+      "size": 145781,
+      "hash": "d31cd1569c7935b42e667011736dc667a34d2df2"
+    },
+    {
+      "path": "head.html",
+      "where": "internal",
+      "type": "head",
+      "hash": "d8cb2806c22a810c6ccb5c83a2bb91391e7f1ee8"
+    }
+  ]
+}
