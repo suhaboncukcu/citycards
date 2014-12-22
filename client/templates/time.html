@@ -1,0 +1,25 @@
+<template name="time">
+		<div class="card timeAdder center-margin full-width left-aligned">
+			<div class="image">
+				<img class="ui right floated rounded image" src="https://maps.googleapis.com/maps/api/staticmap?center={{f}},{{g}}&zoom=9&size=300x300">
+			</div>
+			<div class="content">
+				<a class="header">{{c}} <i>({{ad}})</i> </a>
+				<div class="meta">
+					<span class="date">{{ulke}}</span>
+				</div>
+				<div class="description">
+					<p> {{currentTime}} </p>
+					<p> {{currentDate}} </p>
+
+				</div>
+			</div>
+			<div class="extra content">
+				<a href="https://www.google.com/maps/@{{f}},{{g}},15z" target="_blank">
+					<i class="marker icon"></i>
+					{{f}} , {{g}}
+					<i class="external float right link icon"></i>
+				</a>
+			</div>
+		</div>
+</template>

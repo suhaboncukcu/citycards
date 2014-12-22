@@ -1,0 +1,36 @@
+body {
+	background-color: #d95c5c;
+}
+
+.searchTimes {
+	width: 100%;
+}
+
+.segmentAligned {
+	margin-left: auto!important;
+	margin-right: auto!important;
+	margin-top: 2em!important;
+}
+
+.currentTime{
+	font-size: 2em!important;
+}
+
+.currentTimeSubhead {
+	padding: 1em;
+}
+
+.left-aligned {
+	text-align: left;
+}
+
+.center-margin {
+	margin-left: auto!important;
+	margin-right: auto!important;
+}
+
+.full-width {
+	width: 100%!important;
+}
+
+

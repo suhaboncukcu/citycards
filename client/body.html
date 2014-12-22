@@ -1,0 +1,51 @@
+<body>
+
+<div class="ui center aligned compact segment tall stacked segmentAligned">
+	<div class="sub header currentTimeSubhead" >YOUR CURRENT TIME</div>
+	<div class="ui blue button currentTime">{{clock}}</div>
+	<div class="ui horizontal divider">
+		And the rest
+	</div>	
+	{{> searchBox}}
+</div>
+
+
+
+	
+
+
+</body>
+
+
+<template name="searchBox">
+
+
+		<div class="ui right labeled left icon input fluid massive">
+			<i class="tags icon"></i>
+			{{> esInput index="times" placeholder="Search..." }}
+			<div class="ui tag label">
+			Search
+			</div>
+		</div>
+	   
+		<div class="ui cards center-margin">
+		    {{#esEach index="times"}}
+		        {{> time}}
+		    {{/esEach}}
+	    </div>
+
+
+
+
+
+	    {{#ifEsHasNoResults index="times"}}
+	        <div class="no-results">No results found!</div>
+	    {{/ifEsHasNoResults}}
+
+
+
+</template>
+
+
+
+
